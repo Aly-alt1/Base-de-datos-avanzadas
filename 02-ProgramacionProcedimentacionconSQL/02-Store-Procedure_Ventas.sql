@@ -9,6 +9,7 @@ CREATE TABLE Producto (
     Existencia INT
 );
 
+
 CREATE TABLE Cliente (
     IdCliente INT IDENTITY(1,1) PRIMARY KEY, -- Agregado IDENTITY
     Nombre VARCHAR(100),
