@@ -11,7 +11,7 @@ DetalleVenta: Un registro de los productos vendidos en cada transacción
 ## Explicación del Código (Store Procedure)
 El procedimiento usp_InsertarVenta está diseñado para manejar errores y transacciones
 
-1. Parámetros de Entrada
+##1. Parámetros de Entrada
 Recibe tres valores clave: @idCliente, @idproducto y @cantidad
 
 2. Validaciones Previas (Manejo de Excepciones)
